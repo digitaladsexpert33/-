@@ -5,13 +5,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Join Free Telegram Community</title>
+<title>Join Free Trading Community</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-/* SAME CSS */
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
 body{
 background:linear-gradient(135deg,#020617,#0f172a,#020617);
 min-height:100vh;
@@ -22,75 +27,213 @@ justify-content:center;
 padding:20px;
 color:#ffffff;
 }
+
 .container{
-max-width:420px;width:100%;background:#0f172a;border-radius:26px;
-padding:35px 25px;text-align:center;border:1px solid #1e293b;
-box-shadow:0 25px 60px rgba(0,0,0,.6);position:relative;overflow:hidden;
+max-width:420px;
+width:100%;
+background:#0f172a;
+border-radius:26px;
+padding:35px 25px;
+text-align:center;
+border:1px solid #1e293b;
+box-shadow:0 25px 60px rgba(0,0,0,.6);
+position:relative;
+overflow:hidden;
 }
+
 .container::before{
-content:'';position:absolute;width:120px;height:120px;
+content:'';
+position:absolute;
+width:120px;
+height:120px;
 background:radial-gradient(circle,#facc15,transparent);
-top:-40px;right:-40px;opacity:.08;
+top:-40px;
+right:-40px;
+opacity:.08;
 }
+
 .avatar{
-width:110px;height:110px;border-radius:50%;overflow:hidden;
-margin:0 auto 18px;border:3px solid #facc15;
+width:110px;
+height:110px;
+border-radius:50%;
+overflow:hidden;
+margin:0 auto 18px;
+border:3px solid #facc15;
 box-shadow:0 0 20px rgba(250,204,21,.5);
 }
-.avatar img{width:100%;height:100%;object-fit:cover;}
-.title{font-size:20px;font-weight:800;letter-spacing:.5px;}
-.subtitle{font-size:13px;opacity:.8;margin-top:5px;}
-.highlight{color:#facc15;font-weight:600;}
+
+.avatar img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.title{
+font-size:20px;
+font-weight:800;
+letter-spacing:.5px;
+line-height:1.4;
+}
+
+.subtitle{
+font-size:13px;
+opacity:.85;
+margin-top:8px;
+line-height:1.6;
+}
+
+.highlight{
+color:#facc15;
+font-weight:700;
+}
+
 .badge{
-display:inline-block;margin:16px 0 22px;padding:9px 18px;
-border-radius:30px;font-size:12px;font-weight:600;
-background:linear-gradient(135deg,#facc15,#eab308);color:#000;
+display:inline-block;
+margin:18px 0 22px;
+padding:10px 18px;
+border-radius:30px;
+font-size:12px;
+font-weight:700;
+background:linear-gradient(135deg,#facc15,#eab308);
+color:#000;
 }
-.list{text-align:left;margin-bottom:20px;}
-.list-item{font-size:13px;margin:10px 0;opacity:.9;}
+
+.list{
+text-align:left;
+margin-bottom:22px;
+}
+
+.list-item{
+font-size:13px;
+margin:12px 0;
+opacity:.92;
+line-height:1.5;
+}
+
 .btn{
-display:block;margin:18px 0;padding:16px;border-radius:40px;
-text-decoration:none;font-weight:700;font-size:15px;transition:.3s;
+display:block;
+margin:18px 0;
+padding:16px;
+border-radius:40px;
+text-decoration:none;
+font-weight:700;
+font-size:15px;
+transition:.3s;
 }
+
 .telegram{
 background:linear-gradient(135deg,#22c55e,#16a34a);
-color:#fff;box-shadow:0 0 25px rgba(34,197,94,.6);
+color:#fff;
+box-shadow:0 0 25px rgba(34,197,94,.6);
 animation:pulse 2s infinite;
 }
+
 @keyframes pulse{
-0%{box-shadow:0 0 12px rgba(34,197,94,.4);}
-50%{box-shadow:0 0 28px rgba(34,197,94,.8);}
-100%{box-shadow:0 0 12px rgba(34,197,94,.4);}
+0%{
+box-shadow:0 0 12px rgba(34,197,94,.4);
 }
-.btn:hover{transform:translateY(-3px);}
-.urgency{font-size:12px;color:#f87171;font-weight:600;margin-top:-5px;}
-.trust{font-size:12px;opacity:.8;margin-top:12px;}
-footer{margin-top:20px;font-size:10px;opacity:.5;text-align:center;}
-footer a{color:#facc15;text-decoration:none;}
+50%{
+box-shadow:0 0 28px rgba(34,197,94,.8);
+}
+100%{
+box-shadow:0 0 12px rgba(34,197,94,.4);
+}
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+.urgency{
+font-size:12px;
+color:#f87171;
+font-weight:600;
+margin-top:-4px;
+line-height:1.5;
+}
+
+.trust{
+font-size:12px;
+opacity:.8;
+margin-top:14px;
+line-height:1.6;
+}
+
+footer{
+margin-top:20px;
+font-size:10px;
+opacity:.5;
+text-align:center;
+line-height:1.8;
+}
+
+footer a{
+color:#facc15;
+text-decoration:none;
+}
+
 @media (max-width:480px){
-.container{padding:25px 18px;border-radius:20px;}
-.avatar{width:90px;height:90px;}
-.title{font-size:18px;}
-.btn{padding:14px;font-size:14px;}
+
+.container{
+padding:25px 18px;
+border-radius:20px;
+}
+
+.avatar{
+width:90px;
+height:90px;
+}
+
+.title{
+font-size:18px;
+}
+
+.btn{
+padding:14px;
+font-size:14px;
+}
+
 }
 </style>
 
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
+{
+if(f.fbq)return;
+n=f.fbq=function(){
+n.callMethod ?
+n.callMethod.apply(n,arguments) : n.queue.push(arguments)
+};
+
+if(!f._fbq)f._fbq=n;
+
+n.push=n;
+n.loaded=!0;
+n.version='2.0';
+n.queue=[];
+
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s);
+
+}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
+
+/* YOUR PIXEL ID */
 fbq('init', '1393070919245540');
+
+/* PAGE VIEW EVENT */
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1393070919245540&ev=PageView&noscript=1"
-/></noscript>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1393070919245540&ev=PageView&noscript=1"/>
+</noscript>
 <!-- End Meta Pixel Code -->
 
 </head>
@@ -100,83 +243,148 @@ src="https://www.facebook.com/tr?id=1393070919245540&ev=PageView&noscript=1"
 <div class="container">
 
 <div class="avatar">
-<img src="pn.jpeg">
+<img src="pn.jpeg" alt="Profile">
 </div>
 
-<div class="title">𝗣𝗿𝘂𝘁𝗵𝘃𝗶𝗿𝗮𝗷 𝗡𝗶𝗸𝗮𝗺 ( 𝗙𝘆𝗶𝗽𝗿𝘂𝘁𝗵𝘃𝗶𝗿𝗮𝗷 )™</div>
+<div class="title">
+𝗣𝗿𝘂𝘁𝗵𝘃𝗶𝗿𝗮𝗷 𝗡𝗶𝗸𝗮𝗺 (𝗙𝘆𝗶𝗽𝗿𝘂𝘁𝗵𝘃𝗶𝗿𝗮𝗷)™
+</div>
 
 <div class="subtitle">
-YouTube Educator | <span class="highlight">Market Mentor</span>
+Learn Smart Money Concepts & Real Market Psychology
+with <span class="highlight">Live Educational Analysis</span>
 </div>
 
 <div class="badge">
-Trusted by 1,000,000+ traders worldwide
+🔥 Thousands of traders are already learning daily
 </div>
 
-<!-- CTA -->
+<!-- BUTTON -->
 <a href="https://t.me/+s2BL7lFkh5cxZmRl"
 class="btn telegram"
 target="_blank"
-onclick="trackSubscribe()">
-🚀 Join Free Telegram Community
+id="telegramBtn">
+
+🚀 Join Free Learning Community
+
 </a>
 
 <div class="list">
-<div class="list-item">✔ Weekly high-accuracy market analysis</div>
-<div class="list-item">✔ Step-by-step Smart Money Concepts</div>
-<div class="list-item">✔ Live chart analysis & strategy learning</div>
-<div class="list-item">✔ Real market case study discussions</div>
+
+<div class="list-item">
+✔ Daily educational market breakdowns
 </div>
 
-<!-- CTA -->
-<a href="https://t.me/+s2BL7lFkh5cxZmRl"
-class="btn telegram"
-target="_blank"
-onclick="trackSubscribe()">
-🚀 Join Free Telegram Community
-</a>
+<div class="list-item">
+✔ Learn Smart Money Concepts step-by-step
+</div>
+
+<div class="list-item">
+✔ Live chart reading & trade explanation
+</div>
+
+<div class="list-item">
+✔ Understand how professional traders think
+</div>
+
+<div class="list-item">
+✔ Free community for serious market learners
+</div>
+
+</div>
 
 <div class="urgency">
-Limited access • Join before the next market session
+⚠ Thousands join before every market session — don’t miss today’s setup
 </div>
 
 <div class="trust">
-100% Free • No Spam • For educational purposes only
+Educational Purpose Only • No Paid Signals • Learn Real Market Logic
 </div>
 
 </div>
 
 <footer>
-<br>
-<a href="https://elitepips.online/terms/" target="_blank">Terms</a> |
-<a href="https://elitepips.online/privacy/" target="_blank">Privacy</a> |
-<a href="https://elitepips.online/disclaimer/" target="_blank">Disclaimer</a>
+
+<a href="https://elitepips.online/terms/" target="_blank">
+Terms
+</a>
+
+|
+
+<a href="https://elitepips.online/privacy/" target="_blank">
+Privacy
+</a>
+
+|
+
+<a href="https://elitepips.online/disclaimer/" target="_blank">
+Disclaimer
+</a>
+
 <br><br>
+
 This site is not affiliated with or endorsed by Facebook™.
+
 </footer>
 
-<!-- EVENT TRACKING -->
+<!-- EVENT MANAGER / PIXEL TRACKING -->
 <script>
-function trackSubscribe(){
 
-  var eventID = 'sub_' + Date.now();
+/* BUTTON CLICK TRACKING */
 
-  // Meta Pixel Event
-  fbq('track', 'Subscribe', {
-    value: 1,
-    currency: 'USD'
-  }, {
-    eventID: eventID
-  });
+document.getElementById("telegramBtn").addEventListener("click", function(){
 
-  // Optional CAPI (server-side tracking)
-  fetch('/capi-subscribe', {
-    method:'POST',
-    headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({event_id:eventID})
-  });
+var eventID = 'sub_' + Date.now();
 
-}
+/* FACEBOOK SUBSCRIBE EVENT */
+
+fbq('track', 'Subscribe', {
+
+value: 1,
+currency: 'USD'
+
+}, {
+
+eventID: eventID
+
+});
+
+/* LEAD EVENT */
+
+fbq('track', 'Lead', {
+
+content_name: 'Telegram Community Join',
+status: 'Interested'
+
+});
+
+/* CUSTOM EVENT */
+
+fbq('trackCustom', 'TelegramJoinButtonClicked', {
+
+button_name: 'Main CTA',
+page: window.location.href
+
+});
+
+/* OPTIONAL SERVER SIDE EVENT */
+
+fetch('/capi-subscribe', {
+
+method:'POST',
+
+headers:{
+'Content-Type':'application/json'
+},
+
+body:JSON.stringify({
+event_id:eventID
+})
+
+});
+
+});
+
 </script>
 
 </body>
